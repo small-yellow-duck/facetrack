@@ -31,13 +31,18 @@ Now you'll want to install some packages that you need:
 conda install opencv ipython matplotlib
 ```
 
+# somewhere to write your code!
+If you're not using a development environment like Pycharm or VSCode, you'll also want to install a text editor (like Sublime or TextWrangler) where you can write your code.
 
-# getting started with OpenCV
 
-https://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html
+# getting started with using OpenCV for face detection
+OpenCV has a face detection tool that is based on an algorithm from 2001 called Haar Cascades. (you can read a bit about the algorithm here: https://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html)
+
+
 # trouble-shooting your webcam
 
 
 # project ideas
 - apply snapchat filters to faces in images from your webcam (http://blog.stickpng.com/create-snapchat-filters-png-stickers/)
+- write a program that will allow you to use opencv to draw a box on an image and to save the coordinates of the box (might be handy if you ever want to label your own face detection algoirthm training data!)
 - write a program that will save a still photo 3 seconds after you wink. Your program might include a numerical countdown on the viewer window as well as some beeps so that the user knows when the photo will be taken.
