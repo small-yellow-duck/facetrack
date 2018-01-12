@@ -27,9 +27,9 @@ source activate facetrack
 
 Now you'll want to install some packages that you need:
 
-'''
+```
 conda install opencv ipython matplotlib
-'''
+```
 
 
 # getting started with OpenCV
