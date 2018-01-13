@@ -20,10 +20,10 @@ You can run Python and install packages without a package manager, but it's bett
 
 # creating a new conda environment and installing packages
 Create a new Anaconda environment called 'facetrack' and activate that environment
-'''
+```
 conda create --name facetrack
 source activate facetrack
-'''
+```
 
 Now you'll want to install some packages that you need:
 
