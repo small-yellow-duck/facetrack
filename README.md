@@ -45,6 +45,7 @@ OpenCV has a face detection tool that is based on an algorithm from 2001 called 
 # project ideas
 - intermediate: adapt code for adding a face to an astronaut helmet so that it uses video instead of a still image (https://www.twilio.com/blog/2015/11/getting-started-with-opencv-and-python-featuring-the-martian-2.html)
 - (intermediate-hard) apply snapchat filters to faces in images from your webcam (http://blog.stickpng.com/create-snapchat-filters-png-stickers/)
-- (easy) write a function that will convert an rgb image with a solid colour background to an image with a transparent background
+- (easy-intermediate) write a function that will convert an rgb image with a solid colour background to an image with a transparent background
 - (intermediate-hard) write a program that will allow you to use opencv to draw a box on an image and to save the coordinates of the box (might be handy if you ever want to label your own face detection algoirthm training data!)
+- (easy-intermediate) use pre-trained deep learning tools to label images: https://www.pyimagesearch.com/2017/08/21/deep-learning-with-opencv/
 - write a program that will save a still photo 3 seconds after you wink. Your program might include a numerical countdown on the viewer window as well as some beeps so that the user knows when the photo will be taken.
