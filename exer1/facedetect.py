@@ -7,7 +7,7 @@ Q1: within ipython do
 Q2: what happens if you adjust the value of the scaleFactor parameter passed to faceCascade.detectMultiScale?
 Q3: modify find_faces to check if the image is already grey-scale
 Q4: after you run find_faces, use cv2.imshow() to view the contents of 'image'.... did the function add green squares? Modify find_faces so that it does not change the original image.
-Q5: What are the current dimensions of the image? Add a line to __main__ that prints the image dimensions.
+Q5: What are the current dimensions of the image? Which dimension is the height and which dimension is the width? Add a line to __main__ that prints the image dimensions.
 Q6: modify find_faces so that the image shown doesn't have a dimension larger than 800 pixels. Do you want to resize the image before or after the face detection routine runs?
 
 '''
