@@ -38,13 +38,16 @@ If you're not using a development environment like Pycharm or VSCode, you'll als
 # getting started with using OpenCV for face detection
 OpenCV has a face detection tool that is based on an algorithm from 2001 called Haar Cascades. (you can read a bit about the algorithm here: https://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html)
 
+Exercise 1:
+Make some simple modifications to a script for opening images on your local hard drive and detecting faces in those images.
 
-# trouble-shooting your webcam
+Exercise 2:
+Make sure you can run the simple script for fetching video from your laptop camera and running the face detection algorithm on the captured frames.
 
 
 # project ideas
-- intermediate: adapt code for adding a face to an astronaut helmet so that it uses video instead of a still image (https://www.twilio.com/blog/2015/11/getting-started-with-opencv-and-python-featuring-the-martian-2.html)
 - (intermediate-hard) apply snapchat filters to faces in images from your webcam (http://blog.stickpng.com/create-snapchat-filters-png-stickers/)
+- intermediate: adapt code for adding a face to an astronaut helmet so that it uses video instead of a still image (https://www.twilio.com/blog/2015/11/getting-started-with-opencv-and-python-featuring-the-martian-2.html)
 - (easy-intermediate) write a function that will convert an rgb image with a solid colour background to an image with a transparent background
 - (intermediate-hard) write a program that will allow you to use opencv to draw a box on an image and to save the coordinates of the box (might be handy if you ever want to label your own face detection algoirthm training data!)
 - (easy-intermediate) use pre-trained deep learning tools to label images: https://www.pyimagesearch.com/2017/08/21/deep-learning-with-opencv/
