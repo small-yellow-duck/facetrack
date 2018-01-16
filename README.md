@@ -6,8 +6,6 @@ In this face-tracking tutorial you will learn to:
 - use the OpenCV package to do face detection on still images
 - use the OpenCV package to do face-tracking with images from a webcam
 - build your own SnapChat filters!
-- apply some mathematical filters to modify images
-
 
 
 # installing Anaconda
@@ -46,7 +44,7 @@ Make sure you can run the simple script for fetching video from your laptop came
 
 
 # project ideas
-- (intermediate-hard) apply snapchat filters to faces in images from your webcam (http://blog.stickpng.com/create-snapchat-filters-png-stickers/)
+- (intermediate-hard) apply snapchat filters to faces in images from your webcam (http://blog.stickpng.com/create-snapchat-filters-png-stickers/). You might wish to start from scratch using (https://www.twilio.com/blog/2015/11/getting-started-with-opencv-and-python-featuring-the-martian-2.html) as a reference, or you might want to make the reference solution better by incorporating rotations and skew calculated from the eye and mouth positions.
 - intermediate: adapt code for adding a face to an astronaut helmet so that it uses video instead of a still image (https://www.twilio.com/blog/2015/11/getting-started-with-opencv-and-python-featuring-the-martian-2.html)
 - (easy-intermediate) write a function that will convert an rgb image with a solid colour background to an image with a transparent background
 - (intermediate-hard) write a program that will allow you to use opencv to draw a box on an image and to save the coordinates of the box (might be handy if you ever want to label your own face detection algoirthm training data!)
